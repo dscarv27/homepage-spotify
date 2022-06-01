@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Utility Classes - para utilizar em outras páginas*/
+.btn-primary{
+    background-color: #1db954;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+
+#navbar{
+    display: flex;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 20px 0;
+    /* position: fixed;
+    width: 100%; */
+}
+
+.navbar-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-container ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+.navbar-container ul li{
+    padding: 0 20px;
+}
+
+.navbar-container ul li:nth-child(3){
+    border-right: 1px solid white;
+}
+
+#showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('/img/showcase.webp') center center/cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+}
+
+.showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase-container h2{
+    font-size: 5rem;
+}
+
+.showcase-container p{
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.footer-content .footer-menu{
+    margin: 0 60px;
+    list-style: none;
+}
+
+.footer-content .footer-menu .footer-menu-item{
+    margin: 25px 0;
+}
+
+.footer-content .footer-menu p{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+}
+
+.socials{
+    display: flex;
+}
+
+.socials i{
+    margin: 0 20px;
+    font-size: 1.7rem;
+}
